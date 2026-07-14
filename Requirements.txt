@@ -1,0 +1,39 @@
+# requirements.txt
+# Customer Churn Prediction — Production Dependencies
+# All packages pinned to exact versions for reproducibility.
+# Python 3.11 required.
+
+# ---- Core ML ----
+scikit-learn==1.5.2
+numpy==1.26.4
+pandas==2.2.3
+joblib==1.4.2
+
+# ---- Explainability ----
+shap==0.46.0
+
+# ---- API ----
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+pydantic==2.10.4
+
+# ---- Dashboard ----
+streamlit==1.41.1
+matplotlib==3.9.4
+
+# ---- HTTP client (dashboard → API calls) ----
+requests==2.32.3
+
+# ---- MLflow experiment tracking ----
+mlflow==2.19.0
+
+# ---- Data drift monitoring ----
+evidently==0.4.49
+
+# ---- Testing ----
+pytest==8.3.4
+pytest-cov==6.0.0
+
+# ---- Utilities ----
+python-multipart==0.0.20
+httpx==0.28.1

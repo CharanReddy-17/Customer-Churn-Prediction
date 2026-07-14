@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Models (too large for GitHub)
+models/*.pkl
+
+# Data (raw data shouldn't be on GitHub)
+data/raw/
+
+# MLflow database
+mlflow.db
+mlruns/
+
+# Predictions database
+predictions.db
+
+# Environment
+.env
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+mlflow==3.14.0
+numpy==2.2.2
+pandas==2.2.3
+pyarrow==23.0.1
+pytest==9.1.1
+scikit-learn==1.7.1
+scipy==1.15.2
+skops==0.14.0
