@@ -41,6 +41,16 @@ tracking, SHAP explanations, Evidently drift monitoring, and a full pytest test 
    │   (audit log)    │ │  (tracking)   │  │  monitoring/      │
    └─────────────────┘ └──────────────┘  └──────────────────┘
 ```
+## 📸 Screenshots
+
+### 🎯 Churn Intelligence Dashboard
+![Dashboard](screenshot_dashboard.png)
+
+### ⚡ FastAPI Swagger UI  
+![API](screenshot_api.png)
+
+### 📊 MLflow Experiment Tracking
+![MLflow](screenshot_mlflow.png)
 
 ---
 
