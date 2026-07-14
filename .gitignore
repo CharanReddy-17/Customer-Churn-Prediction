@@ -23,4 +23,10 @@ predictions.db
 
 # OS
 .DS_Store
-Thumbs.db
+Thumbs.dbmlartifacts/ 
+mlflow.db 
+churn_model_pipeline.pkl 
+feature_columns.pkl 
+shap_explainer.pkl 
+Data/telco_churn.csv 
+.ipynb_checkpoints/ 
